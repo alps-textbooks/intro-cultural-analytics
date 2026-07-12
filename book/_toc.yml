@@ -1,20 +1,12 @@
 format: jb-book
 root: welcome
 parts:
-- caption: How To
-  chapters:
-  - file: How-To-Interact-With-This-Book
-    title: Interact With This Book
-- caption: The Course
-  chapters:
-  - file: course-schedule-2021
-    title: Course Schedule
 - caption: The Book
   chapters:
   - file: 01-Command-Line/01-The-Command-Line
-    title: 1. The Command Line
+    title: The Command Line
   - file: 02-Python/00-Python
-    title: 2. Python Basics
+    title: Python Basics
     sections:
     - file: 02-Python/01-Install-Python
       title: Install Python & Jupyter
@@ -41,14 +33,14 @@ parts:
     - file: 02-Python/13-Common-Python-Errors
     - file: 02-Python/14-What-Were-Not-Covering
   - file: 03-Data-Analysis/00-Data-Analysis
-    title: 3. Data Analysis (Pandas)
+    title: Data Analysis (Pandas)
     sections:
     - file: 03-Data-Analysis/01-Pandas-Basics-Part1.ipynb
     - file: 03-Data-Analysis/02-Pandas-Basics-Part2.ipynb
     - file: 03-Data-Analysis/03-Pandas-Basics-Part3.ipynb
     - file: 03-Data-Analysis/04-Pandas-Merge-Datasets
   - file: 04-Data-Collection/00-Data-Collection
-    title: 4. Data Collection (Web Scraping, APIs, Social Media)
+    title: Data Collection (Web Scraping, APIs, Social Media)
     sections:
     - file: 04-Data-Collection/01-User-Ethics-Legal-Concerns
     - file: 04-Data-Collection/02-Web-Scraping-Part1
@@ -70,7 +62,7 @@ parts:
     - file: 04-Data-Collection/14-Reddit-Data
       title: Reddit Data
   - file: 05-Text-Analysis/00-Text-Analysis
-    title: 5. Text Analysis
+    title: Text Analysis
     sections:
     - file: 05-Text-Analysis/01-Multilingual-Text-Analysis
       sections:
@@ -124,18 +116,18 @@ parts:
     - file: 05-Text-Analysis/12-Named-Entity-Recognition
     - file: 05-Text-Analysis/13-POS-Keywords
   - file: 06-Network-Analysis/00-Network-Analysis
-    title: 6. Network Analysis
+    title: Network Analysis
     sections:
     - file: 06-Network-Analysis/01-Network-Analysis
     - file: 06-Network-Analysis/02-Making-Network-Viz-with-Bokeh
   - file: 07-Mapping/00-Mapping
-    title: 7. Mapping
+    title: Mapping
     sections:
     - file: 07-Mapping/01-Mapping
     - file: 07-Mapping/02-Custom-Maps
     - file: 07-Mapping/03-Publish-Your-Map
   - file: 08-LLMs-and-AI/00-LLMs-and-AI
-    title: 8. LLMs and AI
+    title: LLMs and AI
     sections:
     - file: 08-LLMs-and-AI/01-Local-LLMs
       title: Local LLMs
