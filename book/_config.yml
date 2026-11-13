@@ -158,3 +158,12 @@ sphinx:
       Datasets/Datasets: 00-Datasets/00-Datasets
       Python/EXTRA-Jupyter-Tips-Tricks: 02-Python/EXTRA-Jupyter-Tips-Tricks
       Python/EXTRA-Randomize-Students: 02-Python/EXTRA-Randomize-Students
+
+#######################################################################################
+# Alps settings
+alps:
+  # The date Alps shows for a page, where it should not be the date of the last commit
+  # that touched the file. Keys are repository-relative paths.
+  page_dates:
+    # Last changed by the author on this date; a later commit only fixed indentation.
+    book/04-Data-Collection/03-Web-Scraping-Part2.ipynb: 2021-08-30
